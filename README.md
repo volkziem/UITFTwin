@@ -21,7 +21,8 @@ Most of the file
     * write_python_corrector_file.m: writes the stanza for one corrector
     * write_all_quad_file.m: writes python interface to control quads and solenoids
     * write_python_magnet_file.m: writes it for one magnet
-    * injector.lattice: beamline description file
+    * uitf.lattice: beamline description file using k-values
+    * uitf_Bdl.lattice: beamline description file using integrated field strengths from the control system
   * 4D/: contains the beam optics calculations. They are described in https://library.oapen.org/handle/20.500.12657/98031
   * python/: contains the interface scripts in python
   * epics/: contains protocol and database files, as well as executable st.cmd
