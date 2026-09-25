@@ -23,6 +23,7 @@ Most of the file
     * write_python_magnet_file.m: writes it for one magnet
     * uitf.lattice: beamline description file using k-values
     * uitf_Bdl.lattice: beamline description file using integrated field strengths from the control system
+    * kvalues2Bdl.m: converts the the k-values to Bdl by using the energy profile dynamically calculated from the current values of gun high-voltage and cavity settings 
   * 4D/: contains the beam optics calculations. They are described in https://library.oapen.org/handle/20.500.12657/98031
   * python/: contains the interface scripts in python
   * epics/: contains protocol and database files, as well as executable st.cmd
