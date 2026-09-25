@@ -1,0 +1,33 @@
+# ./dtwinApp/Db/misc.proto
+
+Terminator = CR LF;
+
+send_quit { out "quit"; ExtraInput = Ignore; }
+send_misalign { out "MISALIGN %f"; ExtraInput = Ignore; }
+reset { out "RESET %f"; ExtraInput = Ignore; }
+show_screens { out "SHOW_SCREENS %f"; ExtraInput = Ignore; }
+
+get_bpmx { out "IPM.XPOS?"; in "IPM.XPOS %f"; separator=" "; ExtraInput = Ignore; }
+get_bpmy { out "IPM.YPOS?"; in "IPM.YPOS %f"; separator=" "; ExtraInput = Ignore; }
+get_bpm { out "ALLBPM?"; in "ALLBPM %f"; separator=" "; ExtraInput = Ignore; }
+
+set_screen { out "SCREEN %s"; }
+get_sigmas { in "SIGMAS %f"; separator=" "; }
+
+set_tm_from { out "TM.FROM %s"; }
+set_tm_to { out "TM.TO %s"; }
+get_tm { in "TM %f"; separator=" "; }
+
+get_allbpm { in "ALLBPM %f"; separator=" "; }
+
+make_corlist { out "CORLIST %f"; }
+make_bpmlist { out "BPMLIST %f"; }
+make_orm { out "ORM %f"; }
+inhibit_update { out "INHIBIT %f"; }
+
+# set the power supplies for the solenoids
+set_MFQK203 { out "MFQK203.BDL %f"; }
+set_MFDK302A { out "MFDK302A.BDL %f"; }
+set_MFQK403 { out "MFQK403.BDL %f"; }
+
+save_lattice_file { out "SAVE %s"; }

@@ -1,0 +1,22 @@
+# ./uitftwinApp/Db/cavities.proto
+
+Terminator = CR LF;
+
+get_ampl_ENID1 { out "ENID1.4?"; in "ENID1.4 %f"; ExtraInput = Ignore; }
+set_ampl_ENID1 { out "ENID1.4 %f"; ExtraInput = Ignore; @init { get_ampl_ENID1; } }
+
+get_phase_ENID1 { out "ENID1.5?"; in "ENID1.5 %f"; ExtraInput = Ignore; }
+set_phase_ENID1 { out "ENID1.5 %f"; ExtraInput = Ignore; @init { get_phase_ENID1; } }
+
+get_wavelength_ENID1 { out "ENID1.6?"; in "ENID1.6 %f"; ExtraInput = Ignore; }
+set_wavelength_ENID1 { out "ENID1.6 %f"; ExtraInput = Ignore; @init { get_wavelength_ENID1; } }
+
+get_ampl_ENID2 { out "ENID2.4?"; in "ENID2.4 %f"; ExtraInput = Ignore; }
+set_ampl_ENID2 { out "ENID2.4 %f"; ExtraInput = Ignore; @init { get_ampl_ENID2; } }
+
+get_phase_ENID2 { out "ENID2.5?"; in "ENID2.5 %f"; ExtraInput = Ignore; }
+set_phase_ENID2 { out "ENID2.5 %f"; ExtraInput = Ignore; @init { get_phase_ENID2; } }
+
+get_wavelength_ENID2 { out "ENID2.6?"; in "ENID2.6 %f"; ExtraInput = Ignore; }
+set_wavelength_ENID2 { out "ENID2.6 %f"; ExtraInput = Ignore; @init { get_wavelength_ENID2; } }
+

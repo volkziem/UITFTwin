@@ -1,0 +1,49 @@
+# ./uitftwinApp/Db/bpm.proto
+
+Terminator = CR LF;
+
+get_IPMK101X { out "IPMK101.XPOS?"; in "IPMK101.XPOS %f"; ExtraInput = Ignore; }
+get_IPMK101Y { out "IPMK101.YPOS?"; in "IPMK101.YPOS %f"; ExtraInput = Ignore; }
+
+get_IPMK102X { out "IPMK102.XPOS?"; in "IPMK102.XPOS %f"; ExtraInput = Ignore; }
+get_IPMK102Y { out "IPMK102.YPOS?"; in "IPMK102.YPOS %f"; ExtraInput = Ignore; }
+
+get_IPMK201X { out "IPMK201.XPOS?"; in "IPMK201.XPOS %f"; ExtraInput = Ignore; }
+get_IPMK201Y { out "IPMK201.YPOS?"; in "IPMK201.YPOS %f"; ExtraInput = Ignore; }
+
+get_IPMK203X { out "IPMK203.XPOS?"; in "IPMK203.XPOS %f"; ExtraInput = Ignore; }
+get_IPMK203Y { out "IPMK203.YPOS?"; in "IPMK203.YPOS %f"; ExtraInput = Ignore; }
+
+get_IPMK401X { out "IPMK401.XPOS?"; in "IPMK401.XPOS %f"; ExtraInput = Ignore; }
+get_IPMK401Y { out "IPMK401.YPOS?"; in "IPMK401.YPOS %f"; ExtraInput = Ignore; }
+
+get_IPMK402X { out "IPMK402.XPOS?"; in "IPMK402.XPOS %f"; ExtraInput = Ignore; }
+get_IPMK402Y { out "IPMK402.YPOS?"; in "IPMK402.YPOS %f"; ExtraInput = Ignore; }
+
+get_IPMK403X { out "IPMK403.XPOS?"; in "IPMK403.XPOS %f"; ExtraInput = Ignore; }
+get_IPMK403Y { out "IPMK403.YPOS?"; in "IPMK403.YPOS %f"; ExtraInput = Ignore; }
+
+get_IPMM201X { out "IPMM201.XPOS?"; in "IPMM201.XPOS %f"; ExtraInput = Ignore; }
+get_IPMM201Y { out "IPMM201.YPOS?"; in "IPMM201.YPOS %f"; ExtraInput = Ignore; }
+
+get_IPMM501X { out "IPMM501.XPOS?"; in "IPMM501.XPOS %f"; ExtraInput = Ignore; }
+get_IPMM501Y { out "IPMM501.YPOS?"; in "IPMM501.YPOS %f"; ExtraInput = Ignore; }
+
+get_IPMM502X { out "IPMM502.XPOS?"; in "IPMM502.XPOS %f"; ExtraInput = Ignore; }
+get_IPMM502Y { out "IPMM502.YPOS?"; in "IPMM502.YPOS %f"; ExtraInput = Ignore; }
+
+get_IPMM503X { out "IPMM503.XPOS?"; in "IPMM503.XPOS %f"; ExtraInput = Ignore; }
+get_IPMM503Y { out "IPMM503.YPOS?"; in "IPMM503.YPOS %f"; ExtraInput = Ignore; }
+
+get_IPMM504X { out "IPMM504.XPOS?"; in "IPMM504.XPOS %f"; ExtraInput = Ignore; }
+get_IPMM504Y { out "IPMM504.YPOS?"; in "IPMM504.YPOS %f"; ExtraInput = Ignore; }
+
+get_IPMM601X { out "IPMM601.XPOS?"; in "IPMM601.XPOS %f"; ExtraInput = Ignore; }
+get_IPMM601Y { out "IPMM601.YPOS?"; in "IPMM601.YPOS %f"; ExtraInput = Ignore; }
+
+get_IPMM701X { out "IPMM701.XPOS?"; in "IPMM701.XPOS %f"; ExtraInput = Ignore; }
+get_IPMM701Y { out "IPMM701.YPOS?"; in "IPMM701.YPOS %f"; ExtraInput = Ignore; }
+
+get_IPMM702X { out "IPMM702.XPOS?"; in "IPMM702.XPOS %f"; ExtraInput = Ignore; }
+get_IPMM702Y { out "IPMM702.YPOS?"; in "IPMM702.YPOS %f"; ExtraInput = Ignore; }
+

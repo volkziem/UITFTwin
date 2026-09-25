@@ -1,0 +1,186 @@
+# ./uitftwinApp/Db/magnets.proto
+Terminator = CR LF;
+
+get_MBHK101H { out "MBHK101H.BDL?"; in "MBHK101H.BDL %f"; ExtraInput = Ignore; }
+set_MBHK101H { out "MBHK101H.BDL %f"; ExtraInput = Ignore; @init { get_MBHK101H; } }
+
+get_MBHK101V { out "MBHK101V.BDL?"; in "MBHK101V.BDL %f"; ExtraInput = Ignore; }
+set_MBHK101V { out "MBHK101V.BDL %f"; ExtraInput = Ignore; @init { get_MBHK101V; } }
+
+get_MFHK101 { out "MFHK101.BDL?"; in "MFHK101.BDL %f"; ExtraInput = Ignore; }
+set_MFHK101 { out "MFHK101.BDL %f"; ExtraInput = Ignore; @init { get_MFHK101; } }
+
+get_MBHK102H { out "MBHK102H.BDL?"; in "MBHK102H.BDL %f"; ExtraInput = Ignore; }
+set_MBHK102H { out "MBHK102H.BDL %f"; ExtraInput = Ignore; @init { get_MBHK102H; } }
+
+get_MBHK102V { out "MBHK102V.BDL?"; in "MBHK102V.BDL %f"; ExtraInput = Ignore; }
+set_MBHK102V { out "MBHK102V.BDL %f"; ExtraInput = Ignore; @init { get_MBHK102V; } }
+
+get_MLHK201H { out "MLHK201H.BDL?"; in "MLHK201H.BDL %f"; ExtraInput = Ignore; }
+set_MLHK201H { out "MLHK201H.BDL %f"; ExtraInput = Ignore; @init { get_MLHK201H; } }
+
+get_MLHK201V { out "MLHK201V.BDL?"; in "MLHK201V.BDL %f"; ExtraInput = Ignore; }
+set_MLHK201V { out "MLHK201V.BDL %f"; ExtraInput = Ignore; @init { get_MLHK201V; } }
+
+get_MFBK202 { out "MFBK202.BDL?"; in "MFBK202.BDL %f"; ExtraInput = Ignore; }
+set_MFBK202 { out "MFBK202.BDL %f"; ExtraInput = Ignore; @init { get_MFBK202; } }
+
+get_MBHK202H { out "MBHK202H.BDL?"; in "MBHK202H.BDL %f"; ExtraInput = Ignore; }
+set_MBHK202H { out "MBHK202H.BDL %f"; ExtraInput = Ignore; @init { get_MBHK202H; } }
+
+get_MBHK202V { out "MBHK202V.BDL?"; in "MBHK202V.BDL %f"; ExtraInput = Ignore; }
+set_MBHK202V { out "MBHK202V.BDL %f"; ExtraInput = Ignore; @init { get_MBHK202V; } }
+
+get_MQWK202 { out "MQWK202.BDL?"; in "MQWK202.BDL %f"; ExtraInput = Ignore; }
+set_MQWK202 { out "MQWK202.BDL %f"; ExtraInput = Ignore; @init { get_MQWK202; } }
+
+get_MQWK203 { out "MQWK203.BDL?"; in "MQWK203.BDL %f"; ExtraInput = Ignore; }
+set_MQWK203 { out "MQWK203.BDL %f"; ExtraInput = Ignore; @init { get_MQWK203; } }
+
+get_MFQK203_US { out "MFQK203_US.BDL?"; in "MFQK203_US.BDL %f"; ExtraInput = Ignore; }
+set_MFQK203_US { out "MFQK203_US.BDL %f"; ExtraInput = Ignore; @init { get_MFQK203_US; } }
+
+get_MFQK203_DS { out "MFQK203_DS.BDL?"; in "MFQK203_DS.BDL %f"; ExtraInput = Ignore; }
+set_MFQK203_DS { out "MFQK203_DS.BDL %f"; ExtraInput = Ignore; @init { get_MFQK203_DS; } }
+
+get_MBHK203H { out "MBHK203H.BDL?"; in "MBHK203H.BDL %f"; ExtraInput = Ignore; }
+set_MBHK203H { out "MBHK203H.BDL %f"; ExtraInput = Ignore; @init { get_MBHK203H; } }
+
+get_MBHK203V { out "MBHK203V.BDL?"; in "MBHK203V.BDL %f"; ExtraInput = Ignore; }
+set_MBHK203V { out "MBHK203V.BDL %f"; ExtraInput = Ignore; @init { get_MBHK203V; } }
+
+get_MFAK301 { out "MFAK301.BDL?"; in "MFAK301.BDL %f"; ExtraInput = Ignore; }
+set_MFAK301 { out "MFAK301.BDL %f"; ExtraInput = Ignore; @init { get_MFAK301; } }
+
+get_MBHK301H { out "MBHK301H.BDL?"; in "MBHK301H.BDL %f"; ExtraInput = Ignore; }
+set_MBHK301H { out "MBHK301H.BDL %f"; ExtraInput = Ignore; @init { get_MBHK301H; } }
+
+get_MBHK301V { out "MBHK301V.BDL?"; in "MBHK301V.BDL %f"; ExtraInput = Ignore; }
+set_MBHK301V { out "MBHK301V.BDL %f"; ExtraInput = Ignore; @init { get_MBHK301V; } }
+
+get_MFDK302A_US { out "MFDK302A_US.BDL?"; in "MFDK302A_US.BDL %f"; ExtraInput = Ignore; }
+set_MFDK302A_US { out "MFDK302A_US.BDL %f"; ExtraInput = Ignore; @init { get_MFDK302A_US; } }
+
+get_MFDK302A_DS { out "MFDK302A_DS.BDL?"; in "MFDK302A_DS.BDL %f"; ExtraInput = Ignore; }
+set_MFDK302A_DS { out "MFDK302A_DS.BDL %f"; ExtraInput = Ignore; @init { get_MFDK302A_DS; } }
+
+get_MFDK302B { out "MFDK302B.BDL?"; in "MFDK302B.BDL %f"; ExtraInput = Ignore; }
+set_MFDK302B { out "MFDK302B.BDL %f"; ExtraInput = Ignore; @init { get_MFDK302B; } }
+
+get_MLHK302H { out "MLHK302H.BDL?"; in "MLHK302H.BDL %f"; ExtraInput = Ignore; }
+set_MLHK302H { out "MLHK302H.BDL %f"; ExtraInput = Ignore; @init { get_MLHK302H; } }
+
+get_MLHK302V { out "MLHK302V.BDL?"; in "MLHK302V.BDL %f"; ExtraInput = Ignore; }
+set_MLHK302V { out "MLHK302V.BDL %f"; ExtraInput = Ignore; @init { get_MLHK302V; } }
+
+get_MFAK303 { out "MFAK303.BDL?"; in "MFAK303.BDL %f"; ExtraInput = Ignore; }
+set_MFAK303 { out "MFAK303.BDL %f"; ExtraInput = Ignore; @init { get_MFAK303; } }
+
+get_MLHK401H { out "MLHK401H.BDL?"; in "MLHK401H.BDL %f"; ExtraInput = Ignore; }
+set_MLHK401H { out "MLHK401H.BDL %f"; ExtraInput = Ignore; @init { get_MLHK401H; } }
+
+get_MLHK401V { out "MLHK401V.BDL?"; in "MLHK401V.BDL %f"; ExtraInput = Ignore; }
+set_MLHK401V { out "MLHK401V.BDL %f"; ExtraInput = Ignore; @init { get_MLHK401V; } }
+
+get_MLHK401AH { out "MLHK401AH.BDL?"; in "MLHK401AH.BDL %f"; ExtraInput = Ignore; }
+set_MLHK401AH { out "MLHK401AH.BDL %f"; ExtraInput = Ignore; @init { get_MLHK401AH; } }
+
+get_MLHK401AV { out "MLHK401AV.BDL?"; in "MLHK401AV.BDL %f"; ExtraInput = Ignore; }
+set_MLHK401AV { out "MLHK401AV.BDL %f"; ExtraInput = Ignore; @init { get_MLHK401AV; } }
+
+get_MLHK402H { out "MLHK402H.BDL?"; in "MLHK402H.BDL %f"; ExtraInput = Ignore; }
+set_MLHK402H { out "MLHK402H.BDL %f"; ExtraInput = Ignore; @init { get_MLHK402H; } }
+
+get_MLHK402V { out "MLHK402V.BDL?"; in "MLHK402V.BDL %f"; ExtraInput = Ignore; }
+set_MLHK402V { out "MLHK402V.BDL %f"; ExtraInput = Ignore; @init { get_MLHK402V; } }
+
+get_MFQK403_US { out "MFQK403_US.BDL?"; in "MFQK403_US.BDL %f"; ExtraInput = Ignore; }
+set_MFQK403_US { out "MFQK403_US.BDL %f"; ExtraInput = Ignore; @init { get_MFQK403_US; } }
+
+get_MFQK403_DS { out "MFQK403_DS.BDL?"; in "MFQK403_DS.BDL %f"; ExtraInput = Ignore; }
+set_MFQK403_DS { out "MFQK403_DS.BDL %f"; ExtraInput = Ignore; @init { get_MFQK403_DS; } }
+
+get_MLHK403H { out "MLHK403H.BDL?"; in "MLHK403H.BDL %f"; ExtraInput = Ignore; }
+set_MLHK403H { out "MLHK403H.BDL %f"; ExtraInput = Ignore; @init { get_MLHK403H; } }
+
+get_MLHK403V { out "MLHK403V.BDL?"; in "MLHK403V.BDL %f"; ExtraInput = Ignore; }
+set_MLHK403V { out "MLHK403V.BDL %f"; ExtraInput = Ignore; @init { get_MLHK403V; } }
+
+get_MLHM201H { out "MLHM201H.BDL?"; in "MLHM201H.BDL %f"; ExtraInput = Ignore; }
+set_MLHM201H { out "MLHM201H.BDL %f"; ExtraInput = Ignore; @init { get_MLHM201H; } }
+
+get_MLHM201V { out "MLHM201V.BDL?"; in "MLHM201V.BDL %f"; ExtraInput = Ignore; }
+set_MLHM201V { out "MLHM201V.BDL %f"; ExtraInput = Ignore; @init { get_MLHM201V; } }
+
+get_MLHM401H { out "MLHM401H.BDL?"; in "MLHM401H.BDL %f"; ExtraInput = Ignore; }
+set_MLHM401H { out "MLHM401H.BDL %f"; ExtraInput = Ignore; @init { get_MLHM401H; } }
+
+get_MLHM401V { out "MLHM401V.BDL?"; in "MLHM401V.BDL %f"; ExtraInput = Ignore; }
+set_MLHM401V { out "MLHM401V.BDL %f"; ExtraInput = Ignore; @init { get_MLHM401V; } }
+
+get_MLHM501H { out "MLHM501H.BDL?"; in "MLHM501H.BDL %f"; ExtraInput = Ignore; }
+set_MLHM501H { out "MLHM501H.BDL %f"; ExtraInput = Ignore; @init { get_MLHM501H; } }
+
+get_MLHM501V { out "MLHM501V.BDL?"; in "MLHM501V.BDL %f"; ExtraInput = Ignore; }
+set_MLHM501V { out "MLHM501V.BDL %f"; ExtraInput = Ignore; @init { get_MLHM501V; } }
+
+get_MQJM501 { out "MQJM501.BDL?"; in "MQJM501.BDL %f"; ExtraInput = Ignore; }
+set_MQJM501 { out "MQJM501.BDL %f"; ExtraInput = Ignore; @init { get_MQJM501; } }
+
+get_MLHM502H { out "MLHM502H.BDL?"; in "MLHM502H.BDL %f"; ExtraInput = Ignore; }
+set_MLHM502H { out "MLHM502H.BDL %f"; ExtraInput = Ignore; @init { get_MLHM502H; } }
+
+get_MLHM502V { out "MLHM502V.BDL?"; in "MLHM502V.BDL %f"; ExtraInput = Ignore; }
+set_MLHM502V { out "MLHM502V.BDL %f"; ExtraInput = Ignore; @init { get_MLHM502V; } }
+
+get_MQJM502 { out "MQJM502.BDL?"; in "MQJM502.BDL %f"; ExtraInput = Ignore; }
+set_MQJM502 { out "MQJM502.BDL %f"; ExtraInput = Ignore; @init { get_MQJM502; } }
+
+get_MLHM503H { out "MLHM503H.BDL?"; in "MLHM503H.BDL %f"; ExtraInput = Ignore; }
+set_MLHM503H { out "MLHM503H.BDL %f"; ExtraInput = Ignore; @init { get_MLHM503H; } }
+
+get_MLHM503V { out "MLHM503V.BDL?"; in "MLHM503V.BDL %f"; ExtraInput = Ignore; }
+set_MLHM503V { out "MLHM503V.BDL %f"; ExtraInput = Ignore; @init { get_MLHM503V; } }
+
+get_MQJM503 { out "MQJM503.BDL?"; in "MQJM503.BDL %f"; ExtraInput = Ignore; }
+set_MQJM503 { out "MQJM503.BDL %f"; ExtraInput = Ignore; @init { get_MQJM503; } }
+
+get_MLHM504H { out "MLHM504H.BDL?"; in "MLHM504H.BDL %f"; ExtraInput = Ignore; }
+set_MLHM504H { out "MLHM504H.BDL %f"; ExtraInput = Ignore; @init { get_MLHM504H; } }
+
+get_MLHM504V { out "MLHM504V.BDL?"; in "MLHM504V.BDL %f"; ExtraInput = Ignore; }
+set_MLHM504V { out "MLHM504V.BDL %f"; ExtraInput = Ignore; @init { get_MLHM504V; } }
+
+get_MQJM504 { out "MQJM504.BDL?"; in "MQJM504.BDL %f"; ExtraInput = Ignore; }
+set_MQJM504 { out "MQJM504.BDL %f"; ExtraInput = Ignore; @init { get_MQJM504; } }
+
+get_MLHM504AH { out "MLHM504AH.BDL?"; in "MLHM504AH.BDL %f"; ExtraInput = Ignore; }
+set_MLHM504AH { out "MLHM504AH.BDL %f"; ExtraInput = Ignore; @init { get_MLHM504AH; } }
+
+get_MLHM504AV { out "MLHM504AV.BDL?"; in "MLHM504AV.BDL %f"; ExtraInput = Ignore; }
+set_MLHM504AV { out "MLHM504AV.BDL %f"; ExtraInput = Ignore; @init { get_MLHM504AV; } }
+
+get_MLHM601AH { out "MLHM601AH.BDL?"; in "MLHM601AH.BDL %f"; ExtraInput = Ignore; }
+set_MLHM601AH { out "MLHM601AH.BDL %f"; ExtraInput = Ignore; @init { get_MLHM601AH; } }
+
+get_MLHM601AV { out "MLHM601AV.BDL?"; in "MLHM601AV.BDL %f"; ExtraInput = Ignore; }
+set_MLHM601AV { out "MLHM601AV.BDL %f"; ExtraInput = Ignore; @init { get_MLHM601AV; } }
+
+get_MLHM701H { out "MLHM701H.BDL?"; in "MLHM701H.BDL %f"; ExtraInput = Ignore; }
+set_MLHM701H { out "MLHM701H.BDL %f"; ExtraInput = Ignore; @init { get_MLHM701H; } }
+
+get_MLHM701V { out "MLHM701V.BDL?"; in "MLHM701V.BDL %f"; ExtraInput = Ignore; }
+set_MLHM701V { out "MLHM701V.BDL %f"; ExtraInput = Ignore; @init { get_MLHM701V; } }
+
+get_MQJM701 { out "MQJM701.BDL?"; in "MQJM701.BDL %f"; ExtraInput = Ignore; }
+set_MQJM701 { out "MQJM701.BDL %f"; ExtraInput = Ignore; @init { get_MQJM701; } }
+
+get_MLHM702H { out "MLHM702H.BDL?"; in "MLHM702H.BDL %f"; ExtraInput = Ignore; }
+set_MLHM702H { out "MLHM702H.BDL %f"; ExtraInput = Ignore; @init { get_MLHM702H; } }
+
+get_MLHM702V { out "MLHM702V.BDL?"; in "MLHM702V.BDL %f"; ExtraInput = Ignore; }
+set_MLHM702V { out "MLHM702V.BDL %f"; ExtraInput = Ignore; @init { get_MLHM702V; } }
+
+get_MQJM702 { out "MQJM702.BDL?"; in "MQJM702.BDL %f"; ExtraInput = Ignore; }
+set_MQJM702 { out "MQJM702.BDL %f"; ExtraInput = Ignore; @init { get_MQJM702; } }
+

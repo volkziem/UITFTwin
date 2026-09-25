@@ -1,0 +1,128 @@
+# ./dtwinApp/Db/misc.db
+
+record(ao, "$(USER):quit") {
+  field(DESC, "turn digital twin off")
+  field(DTYP, "stream")
+  field(OUT, "@misc.proto send_quit $(PORT)")
+}
+
+record(ao, "$(USER):MISALIGN") {
+  field(DESC, "Misalign magnets off")
+  field(DTYP, "stream")
+  field(OUT, "@misc.proto send_misalign $(PORT)")
+}
+
+record(ao, "$(USER):RESET") {
+  field(DESC, "Reload beamline")
+  field(DTYP, "stream")
+  field(OUT, "@misc.proto reset $(PORT)")
+}
+
+record(ao, "$(USER):SHOW_SCREENS") {
+  field(DESC, "Display Viewers")
+  field(DTYP, "stream")
+  field(OUT, "@misc.proto show_screens $(PORT)")
+}
+
+record(stringout, "$(USER):SCREEN") {
+  field(DESC,"Select screen")
+  field(DTYP,"stream")
+  field(OUT,"@misc.proto set_screen $(PORT)")
+}
+
+record(waveform, "$(USER):SIGMAS") {
+  field(DESC,"beam sigmas")
+  field(DTYP,"stream")
+  field(NELM,"3")
+  field(FTVL,"FLOAT")
+  field(SCAN,"I/O Intr")
+  field(INP,"@misc.proto get_sigmas $(PORT)")
+}
+
+record(stringout, "$(USER):TM:FROM") {
+  field(DESC,"Select TM range")
+  field(DTYP,"stream")
+  field(OUT,"@misc.proto set_tm_from $(PORT)")
+}
+
+record(stringout, "$(USER):TM:TO") {
+  field(DESC,"Select TM range")
+  field(DTYP,"stream")
+  field(OUT,"@misc.proto set_tm_to $(PORT)")
+}
+
+record(waveform, "$(USER):TM") {
+  field(DESC,"transfer matrix")
+  field(DTYP,"stream")
+  field(NELM,"16")
+  field(FTVL,"FLOAT")
+  field(SCAN,"I/O Intr")
+  field(INP,"@misc.proto get_tm $(PORT)")
+}
+
+record(ao, "$(USER):MFQK203:BDL") {
+  field(DESC, "magnet MFQK203:BDL value")
+  field(DTYP, "stream")
+  field(OUT, "@misc.proto set_MFQK203 $(PORT)")
+}
+
+record(ao, "$(USER):MFDK302A:BDL") {
+  field(DESC, "magnet MFDK302A:BDL value")
+  field(DTYP, "stream")
+  field(OUT, "@misc.proto set_MFDK302A $(PORT)")
+}
+
+record(ao, "$(USER):MFQK403:BDL") {
+  field(DESC, "magnet MFQK403:BDL value")
+  field(DTYP, "stream")
+  field(OUT, "@misc.proto set_MFQK403 $(PORT)")
+}
+
+record(ao, "$(USER):CORLIST") {
+  field(DESC, "make corrector list file")
+  field(DTYP, "stream")
+  field(OUT, "@misc.proto make_corlist $(PORT)")
+}
+
+record(ao, "$(USER):BPMLIST") {
+  field(DESC, "make BPM list file")
+  field(DTYP, "stream")
+  field(OUT, "@misc.proto make_bpmlist $(PORT)")
+}
+
+record(ao, "$(USER):ORM") {
+  field(DESC, "make response matrix file")
+  field(DTYP, "stream")
+  field(OUT, "@misc.proto make_orm $(PORT)")
+}
+
+record(ao, "$(USER):INHIBIT") {
+  field(DESC, "inhibit update")
+  field(DTYP, "stream")
+  field(OUT, "@misc.proto inhibit_update $(PORT)")
+}
+
+record(waveform, "$(USER):ALLBPM") {
+  field(DESC,"all bpms")
+  field(DTYP,"stream")
+  field(NELM,"20")
+  field(FTVL,"DOUBLE")
+  field(SCAN,"I/O Intr")
+  field(FLNK, "$(USER):POS")
+  field(INP,"@misc.proto get_allbpm $(PORT)")
+}
+
+record(subArray,"$(USER):POS") {
+  field(INP, "DT:ALLBPM")
+  field(FTVL, "DOUBLE")
+  field(INDX, "3")
+  field(NELM, "1")
+  field(MALM, "20")
+  field(SCAN, "Passive")
+}
+
+record(stringout, "$(USER):SAVE") {
+  field(DESC,"Save lattice file")
+  field(DTYP,"stream")
+  field(OUT,"@misc.proto save_lattice_file $(PORT)")
+}

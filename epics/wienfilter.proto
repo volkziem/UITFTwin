@@ -1,0 +1,27 @@
+# ./dtwinApp/Db/wienfilter.proto
+Terminator = CR LF;
+
+get_vwien {
+  out "V-WIEN.BDL?";
+  in "V-WIEN.BDL %f";
+  ExtraInput = Ignore;
+}
+
+set_vwien {
+  out "V-WIEN.BDL %f";
+  ExtraInput = Ignore;
+  @init { get_vwien; }
+}
+
+get_hwien {
+  out "H-WIEN.BDL?";
+  in "H-WIEN.BDL %f";
+  ExtraInput = Ignore;
+}
+
+set_hwien {
+  out "H-WIEN.BDL %f";
+  ExtraInput = Ignore;
+  @init { get_hwien; }
+}
+

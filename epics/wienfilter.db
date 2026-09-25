@@ -1,0 +1,8 @@
+# ./dtwinApp/Db/wienfilter.db
+
+record(ao, "$(USER):V-WIEN:ANGLE") {
+  field(DESC, "V-Wien angle")
+  field(DTYP, "stream")
+  field(OUT, "@wienfilter.proto set_vwien $(PORT)")
+}
+

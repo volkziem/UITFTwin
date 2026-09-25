@@ -1,0 +1,38 @@
+# ./uitftwinApp/Db/cavities.db
+
+record(ao, "$(USER):ENID1:AMPL") {
+  field(DESC, "magnet ENID1:AMPL value")
+  field(DTYP, "stream")
+  field(OUT, "@cavities.proto set_ampl_ENID1 $(PORT)")
+}
+
+record(ao, "$(USER):ENID1:PHASE") {
+  field(DESC, "magnet ENID1:PHASE value")
+  field(DTYP, "stream")
+  field(OUT, "@cavities.proto set_phase_ENID1 $(PORT)")
+}
+
+record(ao, "$(USER):ENID1:WL") {
+  field(DESC, "magnet ENID1:WL value")
+  field(DTYP, "stream")
+  field(OUT, "@cavities.proto set_wavelength_ENID1 $(PORT)")
+}
+
+record(ao, "$(USER):ENID2:AMPL") {
+  field(DESC, "magnet ENID2:AMPL value")
+  field(DTYP, "stream")
+  field(OUT, "@cavities.proto set_ampl_ENID2 $(PORT)")
+}
+
+record(ao, "$(USER):ENID2:PHASE") {
+  field(DESC, "magnet ENID2:PHASE value")
+  field(DTYP, "stream")
+  field(OUT, "@cavities.proto set_phase_ENID2 $(PORT)")
+}
+
+record(ao, "$(USER):ENID2:WL") {
+  field(DESC, "magnet ENID2:WL value")
+  field(DTYP, "stream")
+  field(OUT, "@cavities.proto set_wavelength_ENID2 $(PORT)")
+}
+
