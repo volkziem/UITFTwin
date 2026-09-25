@@ -25,3 +25,5 @@ Most of the file
   * 4D/: contains the beam optics calculations. They are described in https://library.oapen.org/handle/20.500.12657/98031
   * python/: contains the interface scripts in python
   * epics/: contains protocol and database files, as well as executable st.cmd
+
+Much of the Matlab code for beam optics calculations is described in *V. Ziemann, Hands-On Accelerator Physics Using MATLAB, 2nd edition, CRC Press, Boca Raton, 2025*. The book is available Open Access from https://library.oapen.org/handle/20.500.12657/98031 or free from Amazon.
